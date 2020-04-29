@@ -30,12 +30,17 @@ function App() {
     setTimer(0);
   };
 
+  const onClear = () => {
+    setTimes([]);
+  };
+
   return (
     <Stopwatch
       onStart={onStart}
       onStop={onStop}
       onLap={onLap}
       onReset={onReset}
+      onClear={onClear}
       timer={timer}
       times={times}
     />

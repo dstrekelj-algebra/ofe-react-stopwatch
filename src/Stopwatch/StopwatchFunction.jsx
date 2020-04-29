@@ -9,6 +9,7 @@ export function Stopwatch(props) {
         <button onClick={props.onStop}>STOP</button>
         <button onClick={props.onLap}>LAP</button>
         <button onClick={props.onReset}>RESET</button>
+        <button onClick={props.onClear}>CLEAR</button>
       </div>
       <div>
         {props.times.map((time, index) => (
