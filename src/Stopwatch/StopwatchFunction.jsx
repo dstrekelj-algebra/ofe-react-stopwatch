@@ -1,9 +1,10 @@
 import React from "react";
+import { formatTime } from "../helpers";
 
 export function Stopwatch(props) {
   return (
     <div>
-      <div>{props.timer}</div>
+      <div>{formatTime(props.timer)}</div>
       <div>
         <button onClick={props.onStart}>START</button>
         <button onClick={props.onStop}>STOP</button>
@@ -13,7 +14,7 @@ export function Stopwatch(props) {
       </div>
       <div>
         {props.times.map((time, index) => (
-          <div key={index}>{time}</div>
+          <div key={index}>{formatTime(time)}</div>
         ))}
       </div>
     </div>
