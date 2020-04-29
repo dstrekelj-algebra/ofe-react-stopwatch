@@ -31,8 +31,9 @@ Upute u koracima:
 
 Bonus zadaci:
 
-1. Razdvojiti Stopwatch komponentu na stateful i stateless dijelove: stateful dio staviti u App komponentu, a stateless dio u Stopwatch komponentu
+1. Razdvojiti Stopwatch komponentu na stateful i stateless dijelove: stateful dio staviti u App komponentu, a stateless dio u Stopwatch komponentu - handlere i state proslijediti u Stopwatch putem propsa
 2. Dodati dugme CLEAR za brisanje popisa štopanih vremena
 3. Popis štopanih vremena prikazati na način da su vremena poredana od novijih prema starijima
 4. Prikazati vremena u formatu '00:00:00.00', odnosno 'sati:minute:sekunde.desetinke'
 5. Realizirati START / STOP funkcionalnost kroz jedan button koristeći conditional rendering
+6. Podići promjene na GitHub
